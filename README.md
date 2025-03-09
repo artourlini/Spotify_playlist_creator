@@ -1,0 +1,1 @@
+You to provide your own values for the constant variables, To do so create an account in spotify, if you dont have one already, and go to the developer dashboard here: https://developer.spotify.com/dashboard/
