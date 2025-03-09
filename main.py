@@ -3,9 +3,11 @@ import requests
 import spotipy
 
 from spotipy.oauth2 import SpotifyOAuth
-CLIENT_ID = "3e6c01b0297c4db39bf72d2a85ebde18"
-CLIENT_SECRET = "522626b1d5874254996d79db1abb5ca3"
-REDIRECT_URI = "http://127.0.0.1:3000"
+"""Note: You must provide your own CLIENT_ID, CLIENT_SECRET, REDIRECT_URI
+To do so you must have a Spotify account and obtain these variables here: https://developer.spotify.com/dashboard/"""
+CLIENT_ID = "YOUR OWN ID"
+CLIENT_SECRET = "YOUR OWN SECRET"
+REDIRECT_URI = "YOUR OWN URI"
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID,
                                                client_secret=CLIENT_SECRET,
                                                redirect_uri=REDIRECT_URI,
