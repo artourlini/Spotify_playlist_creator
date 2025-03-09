@@ -1,10 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 import spotipy
-
 from spotipy.oauth2 import SpotifyOAuth
-"""Note: You must provide your own CLIENT_ID, CLIENT_SECRET, REDIRECT_URI
-To do so you must have a Spotify account and obtain these variables here: https://developer.spotify.com/dashboard/"""
+
 CLIENT_ID = "YOUR OWN ID"
 CLIENT_SECRET = "YOUR OWN SECRET"
 REDIRECT_URI = "YOUR OWN URI"
